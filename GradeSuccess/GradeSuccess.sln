@@ -3,49 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeSuccess", "GradeSuccess.csproj", "{DF18BD15-4267-441A-8775-450443F6C838}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeSuccess", "GradeSuccess.csproj", "{2FDF4226-E2AB-404D-83F3-608548D77BDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
-		Debug|ARM64 = Debug|ARM64
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|ARM = Release|ARM
-		Release|ARM64 = Release|ARM64
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM.ActiveCfg = Debug|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM.Build.0 = Debug|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM.Deploy.0 = Debug|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM64.Build.0 = Debug|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x64.ActiveCfg = Debug|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x64.Build.0 = Debug|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x64.Deploy.0 = Debug|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x86.ActiveCfg = Debug|x86
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x86.Build.0 = Debug|x86
-		{DF18BD15-4267-441A-8775-450443F6C838}.Debug|x86.Deploy.0 = Debug|x86
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM.ActiveCfg = Release|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM.Build.0 = Release|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM.Deploy.0 = Release|ARM
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM64.ActiveCfg = Release|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM64.Build.0 = Release|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|ARM64.Deploy.0 = Release|ARM64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x64.ActiveCfg = Release|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x64.Build.0 = Release|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x64.Deploy.0 = Release|x64
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x86.ActiveCfg = Release|x86
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x86.Build.0 = Release|x86
-		{DF18BD15-4267-441A-8775-450443F6C838}.Release|x86.Deploy.0 = Release|x86
+		{2FDF4226-E2AB-404D-83F3-608548D77BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDF4226-E2AB-404D-83F3-608548D77BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDF4226-E2AB-404D-83F3-608548D77BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDF4226-E2AB-404D-83F3-608548D77BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {77C1A7FC-FEFA-4BFF-8357-EB4DEB116DC5}
+		SolutionGuid = {82F27D21-7FBF-4365-9609-709ED63B5848}
 	EndGlobalSection
 EndGlobal
