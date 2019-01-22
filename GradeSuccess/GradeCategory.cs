@@ -16,17 +16,21 @@ namespace GradeSuccess
         public LetterGrade Grade { get; private set; }
         public double MaxPoints { get; private set; }
         public double CurrentPoints { get; private set; }
-        private List<Assignment> assignments;
+        public int NumberOfAssignments { get; private set; }
+        private List<Assignment> assignments = new List<Assignment>();
 
         public GradeCategory(float percentOfGrade, string name)
         {
             PercentOfGrade = percentOfGrade;
             Name = name;
+            NumberOfAssignments = 0;
         }
 
         public void AddAssignment(Assignment assignment)
         {
             assignments.Add(assignment);
+            NumberOfAssignments++;
+            UpdatePoints();
         }
 
         private void UpdatePoints()
@@ -38,7 +42,8 @@ namespace GradeSuccess
                 MaxPoints += a.MaxPoints;
                 CurrentPoints += a.CurrentPoints;
             }
-            UpdateLetterGrade
+
+            UpdateLetterGrade();
         }
 
         private void UpdateLetterGrade()
@@ -131,7 +136,7 @@ namespace GradeSuccess
 
         public override string ToString()
         {
-            return GetType().Name + " PercentOfGrade: " + PercentOfGrade + " Name " + Name + " MaxPoints " + MaxPoints + " CurrentPoints " + CurrentPoints + " Grade " + Grade + " HasPartialGrades " + HasPartialGrades ;
+            return GetType().Name + " PercentOfGrade: " + PercentOfGrade + " Name " + Name + " MaxPoints " + MaxPoints + " CurrentPoints " + CurrentPoints + " Grade " + Grade + " HasPartialGrades " + HasPartialGrades + " NumberOfAssignments " + NumberOfAssignments;
         }
     }
 }

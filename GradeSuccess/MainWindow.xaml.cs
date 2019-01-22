@@ -23,6 +23,18 @@ namespace GradeSuccess
         public MainWindow()
         {
             InitializeComponent();
+            GradeCategory quiz = new GradeCategory(0.25f, "quiz");
+            Assignment first = new Assignment("first", quiz, 93, 100);
+            Assignment second = new Assignment("second", quiz, 87, 100);
+            Assignment third = new Assignment("third", quiz, 97, 100);
+            Assignment fourth = new Assignment("fourth", quiz, 96, 100);
+
+            quiz.AddAssignment(first);
+            quiz.AddAssignment(second);
+            quiz.AddAssignment(third);
+            quiz.AddAssignment(fourth);
+
+            Console.WriteLine(quiz);
         }
     }
 }
